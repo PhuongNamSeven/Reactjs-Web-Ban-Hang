@@ -1,0 +1,72 @@
+.Header {
+    display: flex;
+    padding: 10px 20px;
+    justify-content: space-between;
+    position: sticky;
+    background-color: white;
+    z-index: 100;
+    top: 0;
+    box-shadow: 0px 5px 8px -9px rgba(0, 0, 0, 0.70);
+}
+
+.Header_Left {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.Header_Input {
+    display: flex;
+    align-items: center;
+    background-color: #eff2f5;
+    padding: 10px;
+    margin-left: 10px;
+    border-radius: 900px;
+}
+
+.Header_Input>input {
+    border: none;
+    background-color: transparent;
+    outline-width: 0;
+}
+
+.Header_Left>img {
+    height: 40px;
+}
+
+.Header_Center {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+}
+
+.Header_Option {
+    color: gray;
+    display: flex;
+    align-items: center;
+    padding: 0 30px;
+    cursor: pointer;
+}
+
+.Header_Option:hover {
+    color:magenta;
+}
+
+.Header_Option:hover {
+    background-color: #eff2f5;
+    border-radius: 10px;
+    align-items: center;
+    padding: 0 30px;
+    border-bottom: none;
+}
+
+.Header_Info {
+    display: flex;
+    align-items: center;
+}
+.Header_Info > h3{
+    margin-left: 10px;
+}
+.Header_Right{
+    display: flex;
+    align-items: center;
+}

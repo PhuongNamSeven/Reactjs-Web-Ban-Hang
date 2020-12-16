@@ -1,0 +1,7 @@
+API
+	npm i //cai dat thu vien cho API
+	chay chuong trinh : npm start
+client 
+	npm i // cai dat thu vien cho client
+	chay chuong trinh : npm run dev
+	
